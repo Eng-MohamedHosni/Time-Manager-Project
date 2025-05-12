@@ -73,10 +73,10 @@
             this.btnStop.HoverState.Parent = this.btnStop;
             this.btnStop.Image = global::Time_Manager_Project.Properties.Resources.stop;
             this.btnStop.ImageSize = new System.Drawing.Size(80, 80);
-            this.btnStop.Location = new System.Drawing.Point(227, 239);
+            this.btnStop.Location = new System.Drawing.Point(224, 218);
             this.btnStop.Name = "btnStop";
             this.btnStop.ShadowDecoration.Parent = this.btnStop;
-            this.btnStop.Size = new System.Drawing.Size(78, 56);
+            this.btnStop.Size = new System.Drawing.Size(85, 77);
             this.btnStop.TabIndex = 3;
             this.btnStop.Click += new System.EventHandler(this.btnStop_Click);
             // 
@@ -92,12 +92,12 @@
             this.btnPause.HoverState.Parent = this.btnPause;
             this.btnPause.Image = global::Time_Manager_Project.Properties.Resources.pause__3_1;
             this.btnPause.ImageSize = new System.Drawing.Size(80, 80);
-            this.btnPause.Location = new System.Drawing.Point(97, 239);
+            this.btnPause.Location = new System.Drawing.Point(90, 218);
             this.btnPause.Name = "btnPause";
             this.btnPause.ShadowDecoration.Parent = this.btnPause;
-            this.btnPause.Size = new System.Drawing.Size(78, 56);
+            this.btnPause.Size = new System.Drawing.Size(85, 77);
             this.btnPause.TabIndex = 3;
-            this.btnPause.MouseDown += new System.Windows.Forms.MouseEventHandler(this.btnPlayPause_Click);
+            this.btnPause.Click += new System.EventHandler(this.btnPlayPause_Click);
             // 
             // btnPlay
             // 
@@ -111,10 +111,10 @@
             this.btnPlay.HoverState.Parent = this.btnPlay;
             this.btnPlay.Image = global::Time_Manager_Project.Properties.Resources.play_button__3_;
             this.btnPlay.ImageSize = new System.Drawing.Size(70, 70);
-            this.btnPlay.Location = new System.Drawing.Point(97, 239);
+            this.btnPlay.Location = new System.Drawing.Point(90, 218);
             this.btnPlay.Name = "btnPlay";
             this.btnPlay.ShadowDecoration.Parent = this.btnPlay;
-            this.btnPlay.Size = new System.Drawing.Size(78, 56);
+            this.btnPlay.Size = new System.Drawing.Size(85, 77);
             this.btnPlay.TabIndex = 3;
             this.btnPlay.MouseDown += new System.Windows.Forms.MouseEventHandler(this.btnPlayPause_Click);
             // 

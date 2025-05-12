@@ -22,6 +22,7 @@ namespace Time_Manager_Project
             btnTimer.Image = imageList1.Images[2];
             btnClock.Image = imageList1.Images[3];
             btnStopWatch.Image = imageList1.Images[4];
+            loadform(new frmStopWatch());
         }
 
         private void guna2Button1_Click(object sender, EventArgs e)

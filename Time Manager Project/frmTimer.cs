@@ -47,16 +47,14 @@ namespace Time_Manager_Project
             
         }
 
-        private void timer1_Tick(object sender, EventArgs e)
-        {
-            
-            
-        }
+       
 
         private void btnStop_Click(object sender, EventArgs e)
         {
             lbTimer.Text = "00:00:00:00";
             stopwatch.Reset();
+            btnPlay.Visible = true;
+            btnPause.Visible= false;
         }
 
         private void lbTimer_Click(object sender, EventArgs e)

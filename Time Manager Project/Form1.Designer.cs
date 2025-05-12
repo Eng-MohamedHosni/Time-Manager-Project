@@ -32,13 +32,14 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
-            this.mainpanel = new System.Windows.Forms.Panel();
-            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
-            this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.btnTimer = new Guna.UI2.WinForms.Guna2Button();
             this.btnStopWatch = new Guna.UI2.WinForms.Guna2Button();
             this.btnClock = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.mainpanel = new System.Windows.Forms.Panel();
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -59,6 +60,84 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(420, 70);
             this.panel1.TabIndex = 0;
+            // 
+            // btnTimer
+            // 
+            this.btnTimer.BorderRadius = 10;
+            this.btnTimer.CheckedState.Parent = this.btnTimer;
+            this.btnTimer.CustomImages.Parent = this.btnTimer;
+            this.btnTimer.FillColor = System.Drawing.Color.Transparent;
+            this.btnTimer.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnTimer.ForeColor = System.Drawing.Color.White;
+            this.btnTimer.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            this.btnTimer.HoverState.Parent = this.btnTimer;
+            this.btnTimer.Image = global::Time_Manager_Project.Properties.Resources.icons8_sand_watch_48;
+            this.btnTimer.ImageSize = new System.Drawing.Size(40, 40);
+            this.btnTimer.Location = new System.Drawing.Point(58, 12);
+            this.btnTimer.Name = "btnTimer";
+            this.btnTimer.ShadowDecoration.Parent = this.btnTimer;
+            this.btnTimer.Size = new System.Drawing.Size(78, 44);
+            this.btnTimer.TabIndex = 0;
+            this.toolTip1.SetToolTip(this.btnTimer, "Timer");
+            this.btnTimer.Click += new System.EventHandler(this.guna2Button2_Click);
+            // 
+            // btnStopWatch
+            // 
+            this.btnStopWatch.BorderRadius = 10;
+            this.btnStopWatch.CheckedState.Parent = this.btnStopWatch;
+            this.btnStopWatch.CustomImages.Parent = this.btnStopWatch;
+            this.btnStopWatch.FillColor = System.Drawing.Color.Transparent;
+            this.btnStopWatch.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnStopWatch.ForeColor = System.Drawing.Color.White;
+            this.btnStopWatch.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            this.btnStopWatch.HoverState.Parent = this.btnStopWatch;
+            this.btnStopWatch.Image = global::Time_Manager_Project.Properties.Resources.icons8_stopwatch_48;
+            this.btnStopWatch.ImageSize = new System.Drawing.Size(35, 35);
+            this.btnStopWatch.Location = new System.Drawing.Point(159, 12);
+            this.btnStopWatch.Name = "btnStopWatch";
+            this.btnStopWatch.ShadowDecoration.Parent = this.btnStopWatch;
+            this.btnStopWatch.Size = new System.Drawing.Size(78, 44);
+            this.btnStopWatch.TabIndex = 0;
+            this.toolTip1.SetToolTip(this.btnStopWatch, "Stopwatch");
+            this.btnStopWatch.Click += new System.EventHandler(this.btnStopWatch_Click);
+            // 
+            // btnClock
+            // 
+            this.btnClock.BorderRadius = 10;
+            this.btnClock.CheckedState.Parent = this.btnClock;
+            this.btnClock.CustomImages.Parent = this.btnClock;
+            this.btnClock.FillColor = System.Drawing.Color.Transparent;
+            this.btnClock.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnClock.ForeColor = System.Drawing.Color.White;
+            this.btnClock.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            this.btnClock.HoverState.Parent = this.btnClock;
+            this.btnClock.Image = global::Time_Manager_Project.Properties.Resources.icons8_clock_64;
+            this.btnClock.ImageSize = new System.Drawing.Size(40, 40);
+            this.btnClock.Location = new System.Drawing.Point(262, 12);
+            this.btnClock.Name = "btnClock";
+            this.btnClock.ShadowDecoration.Parent = this.btnClock;
+            this.btnClock.Size = new System.Drawing.Size(78, 44);
+            this.btnClock.TabIndex = 0;
+            this.toolTip1.SetToolTip(this.btnClock, "Clock");
+            this.btnClock.Click += new System.EventHandler(this.btnClock_Click);
+            // 
+            // guna2Button1
+            // 
+            this.guna2Button1.BorderRadius = 10;
+            this.guna2Button1.CheckedState.Parent = this.guna2Button1;
+            this.guna2Button1.CustomImages.Parent = this.guna2Button1;
+            this.guna2Button1.FillColor = System.Drawing.Color.Transparent;
+            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button1.ForeColor = System.Drawing.Color.White;
+            this.guna2Button1.HoverState.Parent = this.guna2Button1;
+            this.guna2Button1.Image = global::Time_Manager_Project.Properties.Resources._CITYPNG_COM_Transparent_White_Square_Close_X_Button_Icon___1000x1000;
+            this.guna2Button1.ImageSize = new System.Drawing.Size(30, 30);
+            this.guna2Button1.Location = new System.Drawing.Point(378, 3);
+            this.guna2Button1.Name = "guna2Button1";
+            this.guna2Button1.ShadowDecoration.Parent = this.guna2Button1;
+            this.guna2Button1.Size = new System.Drawing.Size(36, 35);
+            this.guna2Button1.TabIndex = 0;
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // mainpanel
             // 
@@ -82,81 +161,6 @@
             // guna2DragControl1
             // 
             this.guna2DragControl1.TargetControl = this.panel1;
-            // 
-            // btnTimer
-            // 
-            this.btnTimer.BorderRadius = 10;
-            this.btnTimer.CheckedState.Parent = this.btnTimer;
-            this.btnTimer.CustomImages.Parent = this.btnTimer;
-            this.btnTimer.FillColor = System.Drawing.Color.Transparent;
-            this.btnTimer.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnTimer.ForeColor = System.Drawing.Color.White;
-            this.btnTimer.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.btnTimer.HoverState.Parent = this.btnTimer;
-            this.btnTimer.Image = global::Time_Manager_Project.Properties.Resources.icons8_sand_watch_48;
-            this.btnTimer.ImageSize = new System.Drawing.Size(40, 40);
-            this.btnTimer.Location = new System.Drawing.Point(58, 12);
-            this.btnTimer.Name = "btnTimer";
-            this.btnTimer.ShadowDecoration.Parent = this.btnTimer;
-            this.btnTimer.Size = new System.Drawing.Size(78, 44);
-            this.btnTimer.TabIndex = 0;
-            this.btnTimer.Click += new System.EventHandler(this.guna2Button2_Click);
-            // 
-            // btnStopWatch
-            // 
-            this.btnStopWatch.BorderRadius = 10;
-            this.btnStopWatch.CheckedState.Parent = this.btnStopWatch;
-            this.btnStopWatch.CustomImages.Parent = this.btnStopWatch;
-            this.btnStopWatch.FillColor = System.Drawing.Color.Transparent;
-            this.btnStopWatch.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnStopWatch.ForeColor = System.Drawing.Color.White;
-            this.btnStopWatch.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.btnStopWatch.HoverState.Parent = this.btnStopWatch;
-            this.btnStopWatch.Image = global::Time_Manager_Project.Properties.Resources.icons8_stopwatch_48;
-            this.btnStopWatch.ImageSize = new System.Drawing.Size(35, 35);
-            this.btnStopWatch.Location = new System.Drawing.Point(159, 12);
-            this.btnStopWatch.Name = "btnStopWatch";
-            this.btnStopWatch.ShadowDecoration.Parent = this.btnStopWatch;
-            this.btnStopWatch.Size = new System.Drawing.Size(78, 44);
-            this.btnStopWatch.TabIndex = 0;
-            this.btnStopWatch.Click += new System.EventHandler(this.btnStopWatch_Click);
-            // 
-            // btnClock
-            // 
-            this.btnClock.BorderRadius = 10;
-            this.btnClock.CheckedState.Parent = this.btnClock;
-            this.btnClock.CustomImages.Parent = this.btnClock;
-            this.btnClock.FillColor = System.Drawing.Color.Transparent;
-            this.btnClock.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnClock.ForeColor = System.Drawing.Color.White;
-            this.btnClock.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.btnClock.HoverState.Parent = this.btnClock;
-            this.btnClock.Image = global::Time_Manager_Project.Properties.Resources.icons8_clock_64;
-            this.btnClock.ImageSize = new System.Drawing.Size(40, 40);
-            this.btnClock.Location = new System.Drawing.Point(262, 12);
-            this.btnClock.Name = "btnClock";
-            this.btnClock.ShadowDecoration.Parent = this.btnClock;
-            this.btnClock.Size = new System.Drawing.Size(78, 44);
-            this.btnClock.TabIndex = 0;
-            this.btnClock.Click += new System.EventHandler(this.btnClock_Click);
-            // 
-            // guna2Button1
-            // 
-            this.guna2Button1.BorderRadius = 10;
-            this.guna2Button1.CheckedState.Parent = this.guna2Button1;
-            this.guna2Button1.CustomImages.Parent = this.guna2Button1;
-            this.guna2Button1.FillColor = System.Drawing.Color.Transparent;
-            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.HoverState.Parent = this.guna2Button1;
-            this.guna2Button1.Image = global::Time_Manager_Project.Properties.Resources._CITYPNG_COM_Transparent_White_Square_Close_X_Button_Icon___1000x1000;
-            this.guna2Button1.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2Button1.Location = new System.Drawing.Point(378, 3);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.ShadowDecoration.Parent = this.guna2Button1;
-            this.guna2Button1.Size = new System.Drawing.Size(36, 35);
-            this.guna2Button1.TabIndex = 0;
-            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // Form1
             // 
@@ -186,6 +190,7 @@
         private Guna.UI2.WinForms.Guna2Button btnStopWatch;
         private System.Windows.Forms.ImageList imageList1;
         private Guna.UI2.WinForms.Guna2DragControl guna2DragControl1;
+        private System.Windows.Forms.ToolTip toolTip1;
     }
 }
 
