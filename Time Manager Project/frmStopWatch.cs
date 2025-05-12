@@ -11,6 +11,7 @@ namespace Time_Manager_Project
             InitializeComponent();
         }
 
+        WMPLib.WindowsMediaPlayer Player = new WMPLib.WindowsMediaPlayer();
 
         DateTime TargetTime;
 
@@ -84,8 +85,10 @@ namespace Time_Manager_Project
         // Subscribe to the MouseWheel event for the Form
         private void frmStopWatch_Load(object sender, EventArgs e)
         {
+           
             this.MouseWheel += frmStopWatch_MouseWheel;
             btnPause.Visible = false;
+            btnAlarm.Visible = false;
         }
 
         private void btnPlay_Click(object sender, EventArgs e)
@@ -98,6 +101,7 @@ namespace Time_Manager_Project
                 btnPause.Visible = false;
                 btnPlay.Visible = true;
                 timer1.Stop();
+                
             }
             else
             {
@@ -124,10 +128,15 @@ namespace Time_Manager_Project
                 timer1.Stop();
                 btnPause.Visible = false;
                 btnPlay.Visible = true;
+                Player.URL = @"H:\Mohamed Abo_Hadhod\Projects\Time Manager Project\Time Manager Project\mp3\alarm.mp3";
+                Player.controls.play();
+                btnAlarm.Visible = true;
                 return;
 
             }
+            
 
+                
             TimeSpan ts = TargetTime - DateTime.Now;
             lbH.Text = ts.ToString(@"hh");
             lbM.Text = ts.ToString("mm");
@@ -138,8 +147,9 @@ namespace Time_Manager_Project
 
         private void btnStop_Click(object sender, EventArgs e)
         {
-            lbH.Text = "00";
-            lbH.Text = lbS.Text = lbH.Text;
+            lbH.Text=lbS.Text=lbM.Text = "00";
+
+           
             if(timer1.Enabled)
             {
              timer1.Stop();
@@ -155,6 +165,12 @@ namespace Time_Manager_Project
             lbH.Text = btn.Text.ToString().Substring(0, 2);
             lbM.Text = btn.Text.ToString().Substring(3, 2);
             lbS.Text = btn.Text.ToString().Substring(6, 2);
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            Player.controls.stop();
+            btnAlarm.Visible = false;
         }
     }
 }

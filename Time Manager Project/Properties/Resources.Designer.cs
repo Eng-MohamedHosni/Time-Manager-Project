@@ -123,6 +123,16 @@ namespace Time_Manager_Project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_alarm_48 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-alarm-48", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_clock_48 {
             get {
                 object obj = ResourceManager.GetObject("icons8-clock-48", resourceCulture);
