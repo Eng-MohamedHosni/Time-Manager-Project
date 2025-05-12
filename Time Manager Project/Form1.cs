@@ -67,5 +67,11 @@ namespace Time_Manager_Project
             btnTimer.Image= imageList1.Images[5];
             btnStopWatch.Image= imageList1.Images[4];
         }
+
+        private void guna2Button2_Click_1(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+
+        }
     }
 }

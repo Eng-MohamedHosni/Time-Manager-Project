@@ -193,6 +193,36 @@ namespace Time_Manager_Project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_minimize_window_64 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-minimize-window-64", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_minimize_window_64__1_ {
+            get {
+                object obj = ResourceManager.GetObject("icons8-minimize-window-64 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_minimize_window_64__2_ {
+            get {
+                object obj = ResourceManager.GetObject("icons8-minimize-window-64 (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_sand_watch_48 {
             get {
                 object obj = ResourceManager.GetObject("icons8-sand-watch-48", resourceCulture);
@@ -256,6 +286,16 @@ namespace Time_Manager_Project.Properties {
         internal static System.Drawing.Bitmap icons8_stopwatch_96 {
             get {
                 object obj = ResourceManager.GetObject("icons8-stopwatch-96", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap igBoGImTWZ {
+            get {
+                object obj = ResourceManager.GetObject("igBoGImTWZ", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

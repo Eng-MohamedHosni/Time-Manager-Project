@@ -32,14 +32,15 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btnTimer = new Guna.UI2.WinForms.Guna2Button();
-            this.btnStopWatch = new Guna.UI2.WinForms.Guna2Button();
-            this.btnClock = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.mainpanel = new System.Windows.Forms.Panel();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
+            this.btnTimer = new Guna.UI2.WinForms.Guna2Button();
+            this.btnStopWatch = new Guna.UI2.WinForms.Guna2Button();
+            this.btnClock = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -51,6 +52,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Black;
+            this.panel1.Controls.Add(this.guna2Button2);
             this.panel1.Controls.Add(this.btnTimer);
             this.panel1.Controls.Add(this.btnStopWatch);
             this.panel1.Controls.Add(this.btnClock);
@@ -60,6 +62,48 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(420, 70);
             this.panel1.TabIndex = 0;
+            // 
+            // mainpanel
+            // 
+            this.mainpanel.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.mainpanel.Location = new System.Drawing.Point(0, 62);
+            this.mainpanel.Name = "mainpanel";
+            this.mainpanel.Size = new System.Drawing.Size(420, 378);
+            this.mainpanel.TabIndex = 1;
+            // 
+            // imageList1
+            // 
+            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList1.Images.SetKeyName(0, "ClockBlue");
+            this.imageList1.Images.SetKeyName(1, "StopWatchBlue");
+            this.imageList1.Images.SetKeyName(2, "TimerBlue");
+            this.imageList1.Images.SetKeyName(3, "ClockGray");
+            this.imageList1.Images.SetKeyName(4, "StopWatchGray");
+            this.imageList1.Images.SetKeyName(5, "TimerGray");
+            // 
+            // guna2DragControl1
+            // 
+            this.guna2DragControl1.TargetControl = this.panel1;
+            // 
+            // guna2Button2
+            // 
+            this.guna2Button2.BorderRadius = 10;
+            this.guna2Button2.CheckedState.Parent = this.guna2Button2;
+            this.guna2Button2.CustomImages.Parent = this.guna2Button2;
+            this.guna2Button2.FillColor = System.Drawing.Color.Transparent;
+            this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button2.ForeColor = System.Drawing.Color.White;
+            this.guna2Button2.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            this.guna2Button2.HoverState.Parent = this.guna2Button2;
+            this.guna2Button2.Image = global::Time_Manager_Project.Properties.Resources.icons8_minimize_window_64__2_;
+            this.guna2Button2.ImageSize = new System.Drawing.Size(35, 35);
+            this.guna2Button2.Location = new System.Drawing.Point(345, 2);
+            this.guna2Button2.Name = "guna2Button2";
+            this.guna2Button2.ShadowDecoration.Parent = this.guna2Button2;
+            this.guna2Button2.Size = new System.Drawing.Size(36, 35);
+            this.guna2Button2.TabIndex = 1;
+            this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click_1);
             // 
             // btnTimer
             // 
@@ -129,38 +173,16 @@
             this.guna2Button1.FillColor = System.Drawing.Color.Transparent;
             this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
+            this.guna2Button1.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
             this.guna2Button1.HoverState.Parent = this.guna2Button1;
             this.guna2Button1.Image = global::Time_Manager_Project.Properties.Resources._CITYPNG_COM_Transparent_White_Square_Close_X_Button_Icon___1000x1000;
             this.guna2Button1.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2Button1.Location = new System.Drawing.Point(378, 3);
+            this.guna2Button1.Location = new System.Drawing.Point(381, 3);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.ShadowDecoration.Parent = this.guna2Button1;
             this.guna2Button1.Size = new System.Drawing.Size(36, 35);
             this.guna2Button1.TabIndex = 0;
             this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
-            // 
-            // mainpanel
-            // 
-            this.mainpanel.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.mainpanel.Location = new System.Drawing.Point(0, 62);
-            this.mainpanel.Name = "mainpanel";
-            this.mainpanel.Size = new System.Drawing.Size(420, 378);
-            this.mainpanel.TabIndex = 1;
-            // 
-            // imageList1
-            // 
-            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
-            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageList1.Images.SetKeyName(0, "ClockBlue");
-            this.imageList1.Images.SetKeyName(1, "StopWatchBlue");
-            this.imageList1.Images.SetKeyName(2, "TimerBlue");
-            this.imageList1.Images.SetKeyName(3, "ClockGray");
-            this.imageList1.Images.SetKeyName(4, "StopWatchGray");
-            this.imageList1.Images.SetKeyName(5, "TimerGray");
-            // 
-            // guna2DragControl1
-            // 
-            this.guna2DragControl1.TargetControl = this.panel1;
             // 
             // Form1
             // 
@@ -170,6 +192,7 @@
             this.Controls.Add(this.mainpanel);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
@@ -191,6 +214,7 @@
         private System.Windows.Forms.ImageList imageList1;
         private Guna.UI2.WinForms.Guna2DragControl guna2DragControl1;
         private System.Windows.Forms.ToolTip toolTip1;
+        private Guna.UI2.WinForms.Guna2Button guna2Button2;
     }
 }
 

@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>toolxox.com-iscout-0haV87SMUB %286%29.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Guna.UI2">
       <HintPath>C:\Users\PC\Downloads\Compressed\Guna_UI_Framework_Ultimate_v2.0.0.1\Guna_UI_Framework_Ultimate_v2.0.0.1\Guna.UI-Framework-Lib-master\Guna.UI2 WinForms\.net 4.0\Guna.UI2.dll</HintPath>
@@ -179,6 +182,22 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icons8-alarm-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\igBoGImTWZ.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-minimize-window-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-minimize-window-64 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-minimize-window-64 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="toolxox.com-iscout-0haV87SMUB %285%29.ico" />
+    <Content Include="toolxox.com-iscout-0haV87SMUB %286%29.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
