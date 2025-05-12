@@ -4,6 +4,9 @@ The **Time-Manager-Project** is a simple and elegant desktop application designe
 
 ---
 
+
+<img src="Screenshot/Icon.png" alt="Clock Screen" width="200"/>
+
 ## 🧩 Features
 
 <h3>🕒 Clock</h3>
