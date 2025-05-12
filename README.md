@@ -31,10 +31,10 @@ The **Time-Manager-Project** is a simple and elegant desktop application designe
 - Set countdown duration manually or use quick-pick buttons (`1:00:00`, `0:30:00`, `0:05:00`).
 - Large, centered display with easy controls.
 - Perfect for work sessions or reminders.
+- Abillity to set the duration using the scroll wheel.
 
 <img src="Screenshot/S3.png" alt="Countdown Timer Screen" width="300"/>
 
 ---
 
-## 📂 Project Structure
 
