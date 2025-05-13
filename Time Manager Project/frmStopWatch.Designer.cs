@@ -49,7 +49,7 @@
             this.lbH.AutoSize = true;
             this.lbH.Font = new System.Drawing.Font("Segoe UI Semibold", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbH.ForeColor = System.Drawing.Color.White;
-            this.lbH.Location = new System.Drawing.Point(28, 69);
+            this.lbH.Location = new System.Drawing.Point(28, 65);
             this.lbH.Name = "lbH";
             this.lbH.Size = new System.Drawing.Size(109, 86);
             this.lbH.TabIndex = 2;
@@ -60,7 +60,7 @@
             this.lbM.AutoSize = true;
             this.lbM.Font = new System.Drawing.Font("Segoe UI Semibold", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbM.ForeColor = System.Drawing.Color.White;
-            this.lbM.Location = new System.Drawing.Point(149, 69);
+            this.lbM.Location = new System.Drawing.Point(149, 65);
             this.lbM.Name = "lbM";
             this.lbM.Size = new System.Drawing.Size(109, 86);
             this.lbM.TabIndex = 3;
@@ -71,7 +71,7 @@
             this.lbS.AutoSize = true;
             this.lbS.Font = new System.Drawing.Font("Segoe UI Semibold", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbS.ForeColor = System.Drawing.Color.White;
-            this.lbS.Location = new System.Drawing.Point(282, 69);
+            this.lbS.Location = new System.Drawing.Point(282, 65);
             this.lbS.Name = "lbS";
             this.lbS.Size = new System.Drawing.Size(109, 86);
             this.lbS.TabIndex = 4;
@@ -82,7 +82,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(114, 69);
+            this.label3.Location = new System.Drawing.Point(114, 65);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(52, 86);
             this.label3.TabIndex = 5;
@@ -93,7 +93,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI Semibold", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(245, 69);
+            this.label4.Location = new System.Drawing.Point(245, 65);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(52, 86);
             this.label4.TabIndex = 6;
@@ -115,7 +115,7 @@
             this.btn5.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
             this.btn5.HoverState.Parent = this.btn5;
             this.btn5.ImageSize = new System.Drawing.Size(80, 80);
-            this.btn5.Location = new System.Drawing.Point(253, 175);
+            this.btn5.Location = new System.Drawing.Point(253, 171);
             this.btn5.Name = "btn5";
             this.btn5.ShadowDecoration.Parent = this.btn5;
             this.btn5.Size = new System.Drawing.Size(82, 51);
@@ -135,7 +135,7 @@
             this.btn30.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
             this.btn30.HoverState.Parent = this.btn30;
             this.btn30.ImageSize = new System.Drawing.Size(80, 80);
-            this.btn30.Location = new System.Drawing.Point(160, 175);
+            this.btn30.Location = new System.Drawing.Point(160, 171);
             this.btn30.Name = "btn30";
             this.btn30.ShadowDecoration.Parent = this.btn30;
             this.btn30.Size = new System.Drawing.Size(82, 51);
@@ -155,7 +155,7 @@
             this.btn1h.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
             this.btn1h.HoverState.Parent = this.btn1h;
             this.btn1h.ImageSize = new System.Drawing.Size(80, 80);
-            this.btn1h.Location = new System.Drawing.Point(67, 175);
+            this.btn1h.Location = new System.Drawing.Point(67, 171);
             this.btn1h.Name = "btn1h";
             this.btn1h.ShadowDecoration.Parent = this.btn1h;
             this.btn1h.Size = new System.Drawing.Size(82, 51);
@@ -175,7 +175,7 @@
             this.btnAlarm.HoverState.Parent = this.btnAlarm;
             this.btnAlarm.Image = global::Time_Manager_Project.Properties.Resources.icons8_alarm_48;
             this.btnAlarm.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnAlarm.Location = new System.Drawing.Point(164, 303);
+            this.btnAlarm.Location = new System.Drawing.Point(161, 309);
             this.btnAlarm.Name = "btnAlarm";
             this.btnAlarm.ShadowDecoration.Parent = this.btnAlarm;
             this.btnAlarm.Size = new System.Drawing.Size(69, 63);
@@ -194,7 +194,7 @@
             this.btnStop.HoverState.Parent = this.btnStop;
             this.btnStop.Image = global::Time_Manager_Project.Properties.Resources.stop;
             this.btnStop.ImageSize = new System.Drawing.Size(80, 80);
-            this.btnStop.Location = new System.Drawing.Point(218, 239);
+            this.btnStop.Location = new System.Drawing.Point(218, 235);
             this.btnStop.Name = "btnStop";
             this.btnStop.ShadowDecoration.Parent = this.btnStop;
             this.btnStop.Size = new System.Drawing.Size(79, 74);
@@ -213,7 +213,7 @@
             this.btnPause.HoverState.Parent = this.btnPause;
             this.btnPause.Image = global::Time_Manager_Project.Properties.Resources.pause__3_1;
             this.btnPause.ImageSize = new System.Drawing.Size(80, 80);
-            this.btnPause.Location = new System.Drawing.Point(96, 239);
+            this.btnPause.Location = new System.Drawing.Point(96, 235);
             this.btnPause.Name = "btnPause";
             this.btnPause.ShadowDecoration.Parent = this.btnPause;
             this.btnPause.Size = new System.Drawing.Size(79, 74);
@@ -232,7 +232,7 @@
             this.btnPlay.HoverState.Parent = this.btnPlay;
             this.btnPlay.Image = global::Time_Manager_Project.Properties.Resources.play_button__3_;
             this.btnPlay.ImageSize = new System.Drawing.Size(70, 70);
-            this.btnPlay.Location = new System.Drawing.Point(96, 239);
+            this.btnPlay.Location = new System.Drawing.Point(96, 235);
             this.btnPlay.Name = "btnPlay";
             this.btnPlay.ShadowDecoration.Parent = this.btnPlay;
             this.btnPlay.Size = new System.Drawing.Size(79, 74);
