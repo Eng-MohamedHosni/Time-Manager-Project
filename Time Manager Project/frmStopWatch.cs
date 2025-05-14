@@ -18,6 +18,10 @@ namespace Time_Manager_Project
         // Handle MouseWheel event for the form
         private void frmStopWatch_MouseWheel(object sender, MouseEventArgs e)
         {
+            if(timer1.Enabled==false)
+            {
+
+           
             // Check if the mouse is over the lbH (Label)
             if (lbH.ClientRectangle.Contains(lbH.PointToClient(Control.MousePosition)))
             {
@@ -79,7 +83,8 @@ namespace Time_Manager_Project
                     lbS.Text = currentValue.ToString("D2");
                 }
             }
-            
+            }
+
         }
 
         // Subscribe to the MouseWheel event for the Form
@@ -161,10 +166,13 @@ namespace Time_Manager_Project
 
         private void guna2Button2_Click(object sender, EventArgs e)
         {
-            Guna2Button btn = sender as Guna2Button;
-            lbH.Text = btn.Text.ToString().Substring(0, 2);
-            lbM.Text = btn.Text.ToString().Substring(3, 2);
-            lbS.Text = btn.Text.ToString().Substring(6, 2);
+            if (timer1.Enabled == false)
+            {
+                Guna2Button btn = sender as Guna2Button;
+                lbH.Text = btn.Text.ToString().Substring(0, 2);
+                lbM.Text = btn.Text.ToString().Substring(3, 2);
+                lbS.Text = btn.Text.ToString().Substring(6, 2);
+            }
         }
 
         private void guna2Button1_Click(object sender, EventArgs e)
